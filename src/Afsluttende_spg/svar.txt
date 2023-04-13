@@ -1,0 +1,18 @@
+Hvad gør metoden instanceof?
+
+- Ikke helt sikker på hvad den gør
+
+Hvad vil det sige at en metode er abstrakt?
+
+- At selve metoden ikke har nogen specifik "body", men har en speciel "body" ift. underklassen.
+- Mit eksempel: Vi har en class Fruit med en abstrak metode: taste. Hver underklasse har en taste metode,
+- alle fruits har en smag, men smager anderledes. Så derfor når metoden bliver kaldt, afhænger det har underklassen.
+
+
+Kan man have en ikke-abstrakt klasse med en abstrakt metode? Hvis ikke, hvorfor ikke?
+
+- Det kan man ikke fordi en absktrak metode ikke gør noget. Den har ikke nogen "body".
+
+Hvad betyder @override?
+
+- @Override er en slags kommentar til compileren(?) / JVM(?).
